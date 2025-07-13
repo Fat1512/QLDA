@@ -21,4 +21,4 @@ def auth(username, password):
 
 if __name__ == "__main__":
     print(auth(username='admin', password="123"))
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
